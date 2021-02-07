@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- custom css file -->
+        <link rel="stylesheet" href="style.css">
+    <title>Assignment-5</title>
+</head>
+
+<body>
+
+    <!-- header part     -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recipes</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    </header>
+    <!-- main part -->
+    <main>
+        
+    <div class="input-group p-5 my-5">
+        <input id="input-items" type="text" class="form-control" placeholder="Search For Meal..."
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button id="search-button" class="btn btn-outline-warning text-dark" type="button"
+            id="button-addon2">Search</button>
+
+    </div>
+
+    <div id="food-details">
+
+    </div>
+
+    <div class="container-fluid py-5">
+        <div id="food-item"></div>
+        <p id="warning" class="text-center "> </p>
+    </div>
+
+    </main>
+
+ <!-- custom js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
