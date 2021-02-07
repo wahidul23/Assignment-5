@@ -2,6 +2,9 @@
 .nav-item{
     font-weight: 700;
 }
+.logo-custom{
+    width: 50%;
+}
 #food-item{
     display: grid;
     grid-template-columns: repeat(3,1fr);
